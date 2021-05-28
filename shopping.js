@@ -1,41 +1,42 @@
 const groceries = [
     {
-    item: "milk",
-    id: 1,
-    price: 3,
+        item: "milk",
+        id: 1,
+        price: 3,
     },
     {
-    item: "eggs",
-    id: 2,
-    price: 3, 
+        item: "eggs",
+        id: 2,
+        price: 3, 
     },
     {
-    item: "pizza Rolls",
-    id: 3,
-    price: 5, 
+        item: "pizza Rolls",
+        id: 3,
+        price: 5, 
     },
     {
-    item: "beans",
-    id: 4,
-    price: 1, 
+        item: "beans",
+        id: 4,
+        price: 1, 
     },
     {
-    item: "grapefruit",
-    id: 5,
-    price: 2, 
+        item: "grapefruit",
+        id: 5,
+        price: 2, 
     },
     {
-    item: "sandwitch Buns",
-    id: 6,
-    price: 4, 
+        item: "sandwitch Buns",
+        id: 6,
+        price: 4, 
     },
     {
-    item: "condiments",
-    id: 7,
-    price: 6, 
+        item: "condiments",
+        id: 7,
+        price: 6, 
     }
     ]
-console.log(groceries)
+
+
 
 const addToShoppingList = (itemObject) => {
     const lastIndex = groceries.length - 1
@@ -47,4 +48,31 @@ const addToShoppingList = (itemObject) => {
     groceries.push(itemObject)
 }
 
-dateCreated
+
+const tomatos = {
+    item: "tomatos",
+    price: 4,
+}
+const rice = {
+    item: "rice",
+    price: 6,
+}
+const cerial = {
+    item: "cerial",
+    price: 4,
+}
+const steak = {
+    item: "steak", 
+    price: 10,
+}
+const chicken = {
+    item: "chichen",
+    price: 8,
+}
+addToShoppingList(cerial)
+addToShoppingList(tomatos)
+addToShoppingList(rice)
+addToShoppingList(steak)
+addToShoppingList(chicken)
+
+console.log(groceries)
